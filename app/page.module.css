@@ -5,6 +5,83 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-image: url('./image/background2.jpg');
+  background-size: cover;
+}
+.blur-card {
+  position: relative;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.058); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align content horizontally */
+  justify-content: center; /* Align content vertically */
+  text-align: center; /* Align text horizontally */
+  width: 80vh;
+}
+
+/* Style for the content inside the blur card */
+.blur-card-content {
+  margin-bottom: 20px; /* Add some spacing between elements */
+  /* font-size: 5vh; */
+}
+.blur-card-content-p{
+  margin-top: 20px;
+ 
+   font-size: 2.5vh;
+  font-weight: 400; 
+  font-family: fantasy;
+ color: rgb(36, 39, 40);
+}
+.blur-card h1 {
+  margin-bottom: 20px; /* Add some spacing between elements */
+  font-size: 5vh;
+  font-family: fantasy;
+ color: rgb(43, 108, 136);
+}
+.blur-card label {
+  margin-bottom: 20px; /* Add some spacing between elements */
+  font-size: 3vh;
+  font-weight: 400;
+  font-family: fantasy;
+ color: rgb(43, 108, 136);
+}
+/* Style for the form inside the blur card */
+.blur-card form {
+  width: 100%; /* Set form width to 100% of parent */
+}
+
+/* Style for the input inside the blur card */
+.blur-card input {
+  width: 100%; /* Set input width to 100% of parent */
+  padding: 10px; /* Add padding to input */
+  margin-bottom: 10px; /* Add some spacing between inputs */
+  border-radius: 10px;
+  background-color: #e0d0d0;
+  font-size: 20px;
+  border-width: 1px;
+  margin-top: 15px;
+  border-color: rgb(43, 108, 136);
+}
+
+/* Style for the button inside the blur card */
+.blur-card button {
+ 
+  width: 60%; /* Set button width to 100% of its container */
+  padding: 10px 20px; /* Add padding to button */
+  background-color: rgb(43, 108, 136); /* Blue background color */
+  color: #e7dfdf; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer on hover */
+}
+
+/* Style for the error message inside the blur card */
+.blur-card-error {
+  color: red; /* Red text color */
 }
 
 .description {
